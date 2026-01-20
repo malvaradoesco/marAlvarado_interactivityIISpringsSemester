@@ -1,0 +1,10 @@
+.collage{
+    position:absolute;
+}
+#pink{
+    color:pink;
+}
+.cropContainer{
+    position: relative;
+    overflow: hidden;
+}
