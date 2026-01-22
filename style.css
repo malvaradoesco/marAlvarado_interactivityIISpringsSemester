@@ -8,3 +8,12 @@
     position: relative;
     overflow: hidden;
 }
+.flex-container{
+  display:flex;
+  flex-direction:row;
+  width: 100%;
+}
+
+.flex-item{
+  margin:5%;padding:5%;
+}
