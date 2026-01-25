@@ -1,0 +1,109 @@
+
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.rosarivo-regular {
+  font-family: "Rosarivo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rosarivo-regular-italic {
+  font-family: "Rosarivo", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.bytesized-regular {
+  font-family: "Bytesized", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+    font-family: 'Bytesized','Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 50px;
+}
+.center{
+  position: relative;
+  left: 40%;
+  top: 50%;
+  transform: translate(0,0);
+  margin: 0;
+max-width: fit-content;
+}
+
+.container{
+  position: relative;
+  width: 50vw;
+  height: auto;
+  background-color: rgb(234, 230, 197);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+  margin: 5%;
+}
+
+.display-exp{
+  display: flex;
+  gap: 20px;
+}
+
+.display-exp div{
+    padding: 5%;
+    flex: 1;
+    height: auto;
+    overflow: hidden;
+
+}
+
+.flex-container{
+  display:flex;
+  flex-direction:column;
+  width: 100vw;
+  justify-content: center;
+  height: 50vw;
+  align-items: center;
+}
+
+a:hover {
+  color: rgb(232, 112, 166);
+}
+
+a:link{
+    color: rgb(4, 55, 55);
+}
+
+a:visited {
+  color: rgb(184, 167, 15);
+}

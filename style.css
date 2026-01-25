@@ -24,9 +24,10 @@
 }
 .container{
   position: relative;
-  width: 100vw;
+  width: 50%;
   height: auto;
   background-color: cadetblue;
+  
 }
 .center{
   position: relative;
@@ -105,6 +106,7 @@ p{
   animation-name: test;
   animation-duration: 10s;
   animation-iteration-count: infinite;
+  
 }
 
 @font-face {
