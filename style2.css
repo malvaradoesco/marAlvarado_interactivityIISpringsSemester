@@ -53,6 +53,17 @@ h1{
     font-weight: 800;
     font-size: 50px;
 }
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+font-family: 'Bytesized';
+font-weight: 300;
+font-size: 25px;
+}
+
 .center{
   position: relative;
   left: 40%;
@@ -96,14 +107,25 @@ max-width: fit-content;
   align-items: center;
 }
 
+.frog{
+  width: 100px;
+  height: auto;
+  position: absolute;
+}
+
 a:hover {
   color: rgb(232, 112, 166);
 }
 
-a:link{
-    color: rgb(4, 55, 55);
+@keyframes right-to-left{
+  from{right: -2000px;}
+  to{right: 0px;}
 }
-
-a:visited {
-  color: rgb(184, 167, 15);
+.move-right-to-left{
+  width: 200px;
+  height: auto;
+  position: relative;
+  animation-name: right-to-left;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
