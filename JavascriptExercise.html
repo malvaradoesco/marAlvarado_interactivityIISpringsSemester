@@ -5,5 +5,53 @@
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
 
+<button onclick="document.querySelector ('#colorchangebutton').style.color='white'" id="colorchangebutton" >Este es un buton</button>
+
+<button onclick="alert('pikmin')" id="colorchangebutton">
+    no me jodas hijode-
+</button>
+
+<button onclick="this.innerText('If you press me youre gay')" id="colorchangebutton">twinkie
+
+</button>
+
+<button ondblclick="document.getElementId('yourname').innerHTML= prompt('What is yourname?','joe mama')" id="colorchangebutton">
+    :D
+</button>
+ hit me twice <span id="yourname"></span>
+
+ <p draggable="true" ondrag="myFunction(event)">Drag me!</p>
+
+ <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="images\forg.png" alt="big guy" width="100" height="100">
+
+<style>
+    #colorchangebutton{
+        background-color: cornflowerblue;
+    }
+</style>
+
+<style>
+.droptarget {
+  float: left; 
+  width: 100px; 
+  height: 35px;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+</style>
+
+<script>
+function bigImg(x) {
+  x.style.height = "64px";
+  x.style.width = "64px";
+}
+
+function normalImg(x) {
+  x.style.height = "32px";
+  x.style.width = "32px";
+}
+</script>
+
 </body>
 </html>
